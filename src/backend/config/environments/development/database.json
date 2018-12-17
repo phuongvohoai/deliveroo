@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds016118.mlab.com",
+        "srv": false,
+        "port": "16118",
+        "database": "deliveroo",
+        "username": "phuongvohoai",
+        "password": "phuong1994"
+      },
+      "options": {
+        "authenticationDatabase": "deliveroo",
+        "ssl": false
+      }
+    }
+  }
+}
